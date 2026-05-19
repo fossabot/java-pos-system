@@ -19,26 +19,26 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4
 
-      - name: List Files
-        run: ls -la
-
       - name: Setup Java 17
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Verify Maven Installation
-        run: mvn -version
+      - name: Give Maven Wrapper Permission
+        run: chmod +x mvnw
+
+      - name: Verify Maven
+        run: ./mvnw -version
 
       - name: Clean Project
-        run: mvn clean
+        run: ./mvnw clean
 
       - name: Run Test Cases
-        run: mvn test
+        run: ./mvnw test
 
       - name: Build Spring Boot Application
-        run: mvn package -DskipTests
+        run: ./mvnw package -DskipTests
 
   deploy:
 
