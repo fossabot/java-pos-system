@@ -12,7 +12,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: Java-SaaS-POS-System/Backend
+        working-directory: Backend
 
     steps:
 
@@ -22,23 +22,20 @@ jobs:
       - name: Setup Java 17
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
-          java-version: '17'
+          distribution: temurin
+          java-version: 17
 
-      - name: Give Maven Wrapper Permission
-        run: chmod +x mvnw
-
-      - name: Verify Maven
-        run: ./mvnw -version
+      - name: Verify Maven Installation
+        run: mvn -version
 
       - name: Clean Project
-        run: ./mvnw clean
+        run: mvn clean
 
       - name: Run Test Cases
-        run: ./mvnw test
+        run: mvn test
 
       - name: Build Spring Boot Application
-        run: ./mvnw package -DskipTests
+        run: mvn package -DskipTests
 
   deploy:
 
