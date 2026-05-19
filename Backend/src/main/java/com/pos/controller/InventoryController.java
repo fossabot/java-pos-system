@@ -1,9 +1,9 @@
-package com.zosh.controller;
+package com.pos.controller;
 
 
-import com.zosh.exception.UserException;
-import com.zosh.payload.dto.InventoryDTO;
-import com.zosh.service.InventoryService;
+import com.pos.exception.UserException;
+import com.pos.payload.dto.InventoryDTO;
+import com.pos.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

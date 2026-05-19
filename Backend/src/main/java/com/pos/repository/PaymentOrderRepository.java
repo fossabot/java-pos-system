@@ -1,6 +1,6 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.modal.PaymentOrder;
+import com.pos.modal.PaymentOrder;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,7 +1,7 @@
-package com.zosh.repository;
+package com.pos.repository;
 
 
-import com.zosh.modal.Category;
+import com.pos.modal.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

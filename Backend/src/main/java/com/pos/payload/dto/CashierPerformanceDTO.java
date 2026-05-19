@@ -1,4 +1,4 @@
-package com.zosh.payload.dto;
+package com.pos.payload.dto;
 import lombok.Builder;
 import lombok.Data;
 

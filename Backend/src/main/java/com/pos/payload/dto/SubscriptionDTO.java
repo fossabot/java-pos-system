@@ -1,8 +1,8 @@
-package com.zosh.payload.dto;
+package com.pos.payload.dto;
 
 
-import com.zosh.domain.PaymentStatus;
-import com.zosh.domain.SubscriptionStatus;
+import com.pos.domain.PaymentStatus;
+import com.pos.domain.SubscriptionStatus;
 import lombok.*;
 
 import java.time.LocalDate;

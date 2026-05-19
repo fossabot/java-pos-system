@@ -1,8 +1,8 @@
-package com.zosh.service;
+package com.pos.service;
 
-import com.zosh.exception.UserException;
-import com.zosh.payload.dto.UserDTO;
-import com.zosh.payload.response.AuthResponse;
+import com.pos.exception.UserException;
+import com.pos.payload.dto.UserDTO;
+import com.pos.payload.response.AuthResponse;
 
 public interface AuthService {
     AuthResponse login(String username, String password) throws UserException;

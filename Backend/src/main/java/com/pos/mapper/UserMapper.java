@@ -1,7 +1,7 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
-import com.zosh.modal.User;
-import com.zosh.payload.dto.UserDTO;
+import com.pos.modal.User;
+import com.pos.payload.dto.UserDTO;
 
 import org.springframework.stereotype.Service;
 

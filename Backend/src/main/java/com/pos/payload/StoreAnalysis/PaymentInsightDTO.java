@@ -1,6 +1,6 @@
-package com.zosh.payload.StoreAnalysis;
+package com.pos.payload.StoreAnalysis;
 
-import com.zosh.domain.PaymentType;
+import com.pos.domain.PaymentType;
 import lombok.Builder;
 import lombok.Data;
 

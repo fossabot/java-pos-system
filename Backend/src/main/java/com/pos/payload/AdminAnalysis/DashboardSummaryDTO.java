@@ -1,4 +1,4 @@
-package com.zosh.payload.AdminAnalysis;
+package com.pos.payload.AdminAnalysis;
 
 
 import lombok.*;

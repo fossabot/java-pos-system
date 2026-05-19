@@ -1,8 +1,8 @@
-package com.zosh.payload.response;
+package com.pos.payload.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.zosh.domain.UserRole;
-import com.zosh.payload.dto.UserDTO;
+import com.pos.domain.UserRole;
+import com.pos.payload.dto.UserDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

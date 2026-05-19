@@ -1,13 +1,13 @@
 // AdminDashboardServiceImpl.java
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
-import com.zosh.domain.StoreStatus;
-import com.zosh.payload.AdminAnalysis.DashboardSummaryDTO;
-import com.zosh.payload.AdminAnalysis.StoreRegistrationStatDTO;
-import com.zosh.payload.AdminAnalysis.StoreStatusDistributionDTO;
-import com.zosh.payload.dto.*;
-import com.zosh.repository.StoreRepository;
-import com.zosh.service.AdminDashboardService;
+import com.pos.domain.StoreStatus;
+import com.pos.payload.AdminAnalysis.DashboardSummaryDTO;
+import com.pos.payload.AdminAnalysis.StoreRegistrationStatDTO;
+import com.pos.payload.AdminAnalysis.StoreStatusDistributionDTO;
+import com.pos.payload.dto.*;
+import com.pos.repository.StoreRepository;
+import com.pos.service.AdminDashboardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

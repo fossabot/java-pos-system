@@ -1,10 +1,10 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.domain.OrderStatus;
-import com.zosh.domain.PaymentType;
-import com.zosh.exception.UserException;
-import com.zosh.payload.dto.OrderDTO;
-import com.zosh.service.OrderService;
+import com.pos.domain.OrderStatus;
+import com.pos.domain.PaymentType;
+import com.pos.exception.UserException;
+import com.pos.payload.dto.OrderDTO;
+import com.pos.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.jaxb.SpringDataJaxb;
 import org.springframework.http.ResponseEntity;

@@ -1,13 +1,13 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
-import com.zosh.service.SubscriptionPlanService;
+import com.pos.service.SubscriptionPlanService;
 
 
 
-import com.zosh.exception.ResourceNotFoundException;
-import com.zosh.modal.SubscriptionPlan;
-import com.zosh.repository.SubscriptionPlanRepository;
-import com.zosh.service.SubscriptionPlanService;
+import com.pos.exception.ResourceNotFoundException;
+import com.pos.modal.SubscriptionPlan;
+import com.pos.repository.SubscriptionPlanRepository;
+import com.pos.service.SubscriptionPlanService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

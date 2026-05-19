@@ -1,19 +1,19 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
-import com.zosh.configrations.JwtProvider;
+import com.pos.configrations.JwtProvider;
 
-import com.zosh.domain.UserRole;
-import com.zosh.exception.UserException;
-import com.zosh.mapper.UserMapper;
-import com.zosh.modal.PasswordResetToken;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.UserDTO;
-import com.zosh.payload.response.AuthResponse;
-import com.zosh.repository.PasswordResetTokenRepository;
-import com.zosh.repository.UserRepository;
-import com.zosh.service.AuthService;
+import com.pos.domain.UserRole;
+import com.pos.exception.UserException;
+import com.pos.mapper.UserMapper;
+import com.pos.modal.PasswordResetToken;
+import com.pos.modal.User;
+import com.pos.payload.dto.UserDTO;
+import com.pos.payload.response.AuthResponse;
+import com.pos.repository.PasswordResetTokenRepository;
+import com.pos.repository.UserRepository;
+import com.pos.service.AuthService;
 
-import com.zosh.service.EmailService;
+import com.pos.service.EmailService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

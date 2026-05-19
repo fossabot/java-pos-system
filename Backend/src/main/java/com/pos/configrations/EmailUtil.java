@@ -1,4 +1,4 @@
-package com.zosh.configrations;
+package com.pos.configrations;
 
 
 import jakarta.mail.MessagingException;

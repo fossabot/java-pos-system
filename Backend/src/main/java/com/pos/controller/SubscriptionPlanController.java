@@ -1,9 +1,9 @@
-package com.zosh.controller;
+package com.pos.controller;
 
 
-import com.zosh.exception.ResourceNotFoundException;
-import com.zosh.modal.SubscriptionPlan;
-import com.zosh.service.SubscriptionPlanService;
+import com.pos.exception.ResourceNotFoundException;
+import com.pos.modal.SubscriptionPlan;
+import com.pos.service.SubscriptionPlanService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

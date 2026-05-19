@@ -1,4 +1,4 @@
-package com.zosh.payload.response;
+package com.pos.payload.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

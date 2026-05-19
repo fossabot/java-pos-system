@@ -1,7 +1,7 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.domain.StoreStatus;
-import com.zosh.modal.Store;
+import com.pos.domain.StoreStatus;
+import com.pos.modal.Store;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

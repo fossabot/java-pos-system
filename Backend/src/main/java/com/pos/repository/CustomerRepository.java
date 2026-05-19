@@ -1,6 +1,6 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.modal.Customer;
+import com.pos.modal.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

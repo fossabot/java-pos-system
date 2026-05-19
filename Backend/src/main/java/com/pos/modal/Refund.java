@@ -1,7 +1,7 @@
-package com.zosh.modal;
+package com.pos.modal;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.zosh.domain.PaymentType;
+import com.pos.domain.PaymentType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

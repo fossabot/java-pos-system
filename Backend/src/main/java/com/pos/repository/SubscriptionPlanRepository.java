@@ -1,6 +1,6 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.modal.SubscriptionPlan;
+import com.pos.modal.SubscriptionPlan;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SubscriptionPlanRepository extends JpaRepository<SubscriptionPlan, Long> {

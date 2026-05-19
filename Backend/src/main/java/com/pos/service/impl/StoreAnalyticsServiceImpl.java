@@ -1,10 +1,10 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
-import com.zosh.domain.UserRole;
-import com.zosh.modal.Order;
-import com.zosh.payload.StoreAnalysis.*;
-import com.zosh.repository.*;
-import com.zosh.service.StoreAnalyticsService;
+import com.pos.domain.UserRole;
+import com.pos.modal.Order;
+import com.pos.payload.StoreAnalysis.*;
+import com.pos.repository.*;
+import com.pos.service.StoreAnalyticsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

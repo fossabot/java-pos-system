@@ -1,9 +1,9 @@
-package com.zosh.payload.StoreAnalysis;
+package com.pos.payload.StoreAnalysis;
 
-import com.zosh.payload.dto.BranchDTO;
-import com.zosh.payload.dto.ProductDTO;
-import com.zosh.payload.dto.RefundDTO;
-import com.zosh.payload.dto.UserDTO;
+import com.pos.payload.dto.BranchDTO;
+import com.pos.payload.dto.ProductDTO;
+import com.pos.payload.dto.RefundDTO;
+import com.pos.payload.dto.UserDTO;
 import lombok.Builder;
 import lombok.Data;
 

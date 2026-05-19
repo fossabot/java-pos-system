@@ -1,14 +1,14 @@
-package com.zosh.controller;
+package com.pos.controller;
 
 import com.razorpay.RazorpayException;
 import com.stripe.exception.StripeException;
-import com.zosh.domain.PaymentMethod;
-import com.zosh.exception.UserException;
-import com.zosh.modal.PaymentOrder;
-import com.zosh.modal.User;
-import com.zosh.payload.response.PaymentLinkResponse;
-import com.zosh.service.PaymentService;
-import com.zosh.service.UserService;
+import com.pos.domain.PaymentMethod;
+import com.pos.exception.UserException;
+import com.pos.modal.PaymentOrder;
+import com.pos.modal.User;
+import com.pos.payload.response.PaymentLinkResponse;
+import com.pos.service.PaymentService;
+import com.pos.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

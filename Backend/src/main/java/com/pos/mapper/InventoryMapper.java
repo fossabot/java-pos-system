@@ -1,10 +1,10 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
 
-import com.zosh.modal.Branch;
-import com.zosh.modal.Inventory;
-import com.zosh.modal.Product;
-import com.zosh.payload.dto.InventoryDTO;
+import com.pos.modal.Branch;
+import com.pos.modal.Inventory;
+import com.pos.modal.Product;
+import com.pos.payload.dto.InventoryDTO;
 
 public class InventoryMapper {
 

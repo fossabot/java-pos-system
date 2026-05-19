@@ -1,10 +1,10 @@
-package com.zosh.util;
+package com.pos.util;
 
-import com.zosh.domain.UserRole;
-import com.zosh.exception.UserException;
-import com.zosh.modal.*;
-import com.zosh.repository.UserRepository;
-import com.zosh.service.UserService;
+import com.pos.domain.UserRole;
+import com.pos.exception.UserException;
+import com.pos.modal.*;
+import com.pos.repository.UserRepository;
+import com.pos.service.UserService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;

@@ -1,5 +1,5 @@
 
-package com.zosh.exception;
+package com.pos.exception;
 
 public class UserException extends Exception {
 	

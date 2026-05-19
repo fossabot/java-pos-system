@@ -1,10 +1,10 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
 
-import com.zosh.exception.ResourceNotFoundException;
-import com.zosh.modal.Customer;
-import com.zosh.repository.CustomerRepository;
-import com.zosh.service.CustomerService;
+import com.pos.exception.ResourceNotFoundException;
+import com.pos.modal.Customer;
+import com.pos.repository.CustomerRepository;
+import com.pos.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

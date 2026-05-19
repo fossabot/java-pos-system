@@ -1,6 +1,6 @@
-package com.zosh.service;
+package com.pos.service;
 
-import com.zosh.payload.StoreAnalysis.*;
+import com.pos.payload.StoreAnalysis.*;
 
 import java.util.List;
 

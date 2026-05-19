@@ -1,8 +1,8 @@
-package com.zosh.modal;
+package com.pos.modal;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.zosh.domain.OrderStatus;
-import com.zosh.domain.PaymentType;
+import com.pos.domain.OrderStatus;
+import com.pos.domain.PaymentType;
 import jakarta.persistence.*;
 import lombok.*;
 

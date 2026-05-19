@@ -1,8 +1,8 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.modal.PaymentSummary;
-import com.zosh.payload.dto.*;
-import com.zosh.service.BranchAnalyticsService;
+import com.pos.modal.PaymentSummary;
+import com.pos.payload.dto.*;
+import com.pos.service.BranchAnalyticsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;

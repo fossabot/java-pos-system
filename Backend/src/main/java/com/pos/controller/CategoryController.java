@@ -1,8 +1,8 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.exception.UserException;
-import com.zosh.payload.dto.CategoryDTO;
-import com.zosh.service.CategoryService;
+import com.pos.exception.UserException;
+import com.pos.payload.dto.CategoryDTO;
+import com.pos.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;

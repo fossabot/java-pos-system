@@ -1,10 +1,10 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.modal.OrderItem;
-import com.zosh.payload.StoreAnalysis.BranchSalesDTO;
-import com.zosh.payload.StoreAnalysis.CategorySalesDTO;
-import com.zosh.payload.StoreAnalysis.PaymentInsightDTO;
-import com.zosh.payload.StoreAnalysis.TimeSeriesPointDTO;
+import com.pos.modal.OrderItem;
+import com.pos.payload.StoreAnalysis.BranchSalesDTO;
+import com.pos.payload.StoreAnalysis.CategorySalesDTO;
+import com.pos.payload.StoreAnalysis.PaymentInsightDTO;
+import com.pos.payload.StoreAnalysis.TimeSeriesPointDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

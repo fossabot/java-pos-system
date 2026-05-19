@@ -1,10 +1,10 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.exception.UserException;
-import com.zosh.mapper.ShiftReportMapper;
-import com.zosh.modal.ShiftReport;
-import com.zosh.payload.dto.ShiftReportDTO;
-import com.zosh.service.ShiftReportService;
+import com.pos.exception.UserException;
+import com.pos.mapper.ShiftReportMapper;
+import com.pos.modal.ShiftReport;
+import com.pos.payload.dto.ShiftReportDTO;
+import com.pos.service.ShiftReportService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;

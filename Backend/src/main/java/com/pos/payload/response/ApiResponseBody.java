@@ -1,8 +1,8 @@
-package com.zosh.payload.response;
+package com.pos.payload.response;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.zosh.domain.InternalCodeEnum;
+import com.pos.domain.InternalCodeEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

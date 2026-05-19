@@ -1,8 +1,8 @@
-package com.zosh.service;
+package com.pos.service;
 
 
-import com.zosh.exception.ResourceNotFoundException;
-import com.zosh.modal.Customer;
+import com.pos.exception.ResourceNotFoundException;
+import com.pos.modal.Customer;
 
 import java.util.List;
 

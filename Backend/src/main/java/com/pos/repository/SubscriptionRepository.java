@@ -1,8 +1,8 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.domain.SubscriptionStatus;
-import com.zosh.modal.Store;
-import com.zosh.modal.Subscription;
+import com.pos.domain.SubscriptionStatus;
+import com.pos.modal.Store;
+import com.pos.modal.Subscription;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;

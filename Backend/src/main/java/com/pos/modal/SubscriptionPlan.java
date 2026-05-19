@@ -1,6 +1,6 @@
-package com.zosh.modal;
+package com.pos.modal;
 
-import com.zosh.domain.BillingCycle;
+import com.pos.domain.BillingCycle;
 import jakarta.persistence.*;
 import lombok.*;
 

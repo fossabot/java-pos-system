@@ -1,9 +1,9 @@
-package com.zosh.payload.dto;
+package com.pos.payload.dto;
 
 
-import com.zosh.domain.OrderStatus;
-import com.zosh.domain.PaymentType;
-import com.zosh.modal.Customer;
+import com.pos.domain.OrderStatus;
+import com.pos.domain.PaymentType;
+import com.pos.modal.Customer;
 import lombok.*;
 
 import java.time.LocalDateTime;

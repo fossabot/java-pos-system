@@ -1,9 +1,9 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.domain.UserRole;
-import com.zosh.modal.User;
+import com.pos.domain.UserRole;
+import com.pos.modal.User;
 
-import com.zosh.payload.dto.UserDTO;
+import com.pos.payload.dto.UserDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -19,8 +19,8 @@ public interface UserRepository extends JpaRepository<User, Long> {
 	Set<User> findByRole(UserRole role);
 	List<User> findByBranchId(Long branchId);
 	List<User>findByStoreId(Long storeId);
-	List<User> findByStoreAndRoleIn(com.zosh.modal.Store store, List<UserRole> roles);
-	List<User> findByBranchAndRoleIn(com.zosh.modal.Branch branch, List<UserRole> roles);
+	List<User> findByStoreAndRoleIn(com.pos.modal.Store store, List<UserRole> roles);
+	List<User> findByBranchAndRoleIn(com.pos.modal.Branch branch, List<UserRole> roles);
 
 //	analysis
 @Query("""
@@ -35,7 +35,7 @@ int countByStoreAdminIdAndRoles(@Param("storeAdminId") Long storeAdminId,
 								@Param("roles") List<UserRole> roles);
 
 	@Query("""
-    SELECT new com.zosh.payload.dto.UserDTO(
+    SELECT new com.pos.payload.dto.UserDTO(
 		u.id,
 		u.email,
 		u.fullName, u.role, u.branch.name, u.lastLogin
@@ -43,7 +43,7 @@ int countByStoreAdminIdAndRoles(@Param("storeAdminId") Long storeAdminId,
     FROM User u
     WHERE u.lastLogin < :cutoffDate
     AND u.branch.store.storeAdmin.id = :storeAdminId
-    AND u.role = com.zosh.domain.UserRole.ROLE_BRANCH_CASHIER
+    AND u.role = com.pos.domain.UserRole.ROLE_BRANCH_CASHIER
 """)
 	List<UserDTO> findInactiveCashiers(@Param("storeAdminId") Long storeAdminId,
 									   @Param("cutoffDate") LocalDateTime cutoffDate);
@@ -55,7 +55,7 @@ int countByStoreAdminIdAndRoles(@Param("storeAdminId") Long storeAdminId,
 //        SELECT u.fullName
 //        FROM User u
 //        Where u.branch.store.storeAdmin.id=:storeAdminId
-//        AND u.role = com.zosh.domain.UserRole.ROLE_BRANCH_CASHIER
+//        AND u.role = com.pos.domain.UserRole.ROLE_BRANCH_CASHIER
 //    """)
 //	List<String> findInactiveCashiers(@Param("storeAdminId") Long storeAdminId,
 //									  @Param("cutoffDate") LocalDateTime cutoffDate

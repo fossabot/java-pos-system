@@ -1,6 +1,6 @@
-package com.zosh.payload.dto;
+package com.pos.payload.dto;
 
-import com.zosh.domain.UserRole;
+import com.pos.domain.UserRole;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

@@ -1,7 +1,7 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
-import com.zosh.modal.Category;
-import com.zosh.payload.dto.CategoryDTO;
+import com.pos.modal.Category;
+import com.pos.payload.dto.CategoryDTO;
 
 public class CategoryMapper {
 

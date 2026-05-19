@@ -1,17 +1,17 @@
-package com.zosh.controller;
+package com.pos.controller;
 
 
-import com.zosh.domain.StoreStatus;
-import com.zosh.exception.ResourceNotFoundException;
-import com.zosh.exception.UserException;
-import com.zosh.mapper.StoreMapper;
-import com.zosh.modal.Store;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.StoreDTO;
-import com.zosh.payload.dto.UserDTO;
-import com.zosh.payload.response.ApiResponse;
-import com.zosh.service.StoreService;
-import com.zosh.service.UserService;
+import com.pos.domain.StoreStatus;
+import com.pos.exception.ResourceNotFoundException;
+import com.pos.exception.UserException;
+import com.pos.mapper.StoreMapper;
+import com.pos.modal.Store;
+import com.pos.modal.User;
+import com.pos.payload.dto.StoreDTO;
+import com.pos.payload.dto.UserDTO;
+import com.pos.payload.response.ApiResponse;
+import com.pos.service.StoreService;
+import com.pos.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

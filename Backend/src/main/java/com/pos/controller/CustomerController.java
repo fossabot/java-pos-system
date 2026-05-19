@@ -1,8 +1,8 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.exception.ResourceNotFoundException;
-import com.zosh.modal.Customer;
-import com.zosh.service.CustomerService;
+import com.pos.exception.ResourceNotFoundException;
+import com.pos.modal.Customer;
+import com.pos.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

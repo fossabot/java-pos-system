@@ -1,4 +1,4 @@
-package com.zosh.configrations;
+package com.pos.configrations;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,10 +1,10 @@
-package com.zosh.repository;
+package com.pos.repository;
 
 
 
-import com.zosh.modal.ShiftReport;
-import com.zosh.modal.User;
-import com.zosh.modal.Branch;
+import com.pos.modal.ShiftReport;
+import com.pos.modal.User;
+import com.pos.modal.Branch;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDateTime;

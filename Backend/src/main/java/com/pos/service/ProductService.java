@@ -1,9 +1,9 @@
-package com.zosh.service;
+package com.pos.service;
 
 
-import com.zosh.exception.AccessDeniedException;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.ProductDTO;
+import com.pos.exception.AccessDeniedException;
+import com.pos.modal.User;
+import com.pos.payload.dto.ProductDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

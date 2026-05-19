@@ -1,18 +1,18 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
 
-import com.zosh.domain.UserRole;
-import com.zosh.exception.AccessDeniedException;
-import com.zosh.mapper.ProductMapper;
-import com.zosh.modal.Category;
-import com.zosh.modal.Product;
-import com.zosh.modal.Store;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.ProductDTO;
-import com.zosh.repository.CategoryRepository;
-import com.zosh.repository.ProductRepository;
-import com.zosh.repository.StoreRepository;
-import com.zosh.service.ProductService;
+import com.pos.domain.UserRole;
+import com.pos.exception.AccessDeniedException;
+import com.pos.mapper.ProductMapper;
+import com.pos.modal.Category;
+import com.pos.modal.Product;
+import com.pos.modal.Store;
+import com.pos.modal.User;
+import com.pos.payload.dto.ProductDTO;
+import com.pos.repository.CategoryRepository;
+import com.pos.repository.ProductRepository;
+import com.pos.repository.StoreRepository;
+import com.pos.service.ProductService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

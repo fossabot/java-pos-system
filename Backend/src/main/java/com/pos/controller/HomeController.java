@@ -1,6 +1,6 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.payload.response.ApiResponse;
+import com.pos.payload.response.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

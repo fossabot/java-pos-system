@@ -1,15 +1,15 @@
 
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
-import com.zosh.domain.UserRole;
-import com.zosh.exception.UserException;
-import com.zosh.mapper.CategoryMapper;
-import com.zosh.modal.*;
-import com.zosh.payload.dto.CategoryDTO;
-import com.zosh.repository.*;
+import com.pos.domain.UserRole;
+import com.pos.exception.UserException;
+import com.pos.mapper.CategoryMapper;
+import com.pos.modal.*;
+import com.pos.payload.dto.CategoryDTO;
+import com.pos.repository.*;
 
-import com.zosh.service.CategoryService;
-import com.zosh.service.UserService;
+import com.pos.service.CategoryService;
+import com.pos.service.UserService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,24 +1,24 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
 
-import com.zosh.domain.StoreStatus;
-import com.zosh.domain.UserRole;
-import com.zosh.exception.ResourceNotFoundException;
-import com.zosh.exception.UserException;
-import com.zosh.mapper.StoreMapper;
-import com.zosh.mapper.UserMapper;
-import com.zosh.modal.Branch;
-import com.zosh.modal.Store;
-import com.zosh.modal.StoreContact;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.StoreDTO;
-import com.zosh.payload.dto.UserDTO;
-import com.zosh.repository.BranchRepository;
-import com.zosh.repository.StoreRepository;
-import com.zosh.repository.UserRepository;
-import com.zosh.service.StoreService;
+import com.pos.domain.StoreStatus;
+import com.pos.domain.UserRole;
+import com.pos.exception.ResourceNotFoundException;
+import com.pos.exception.UserException;
+import com.pos.mapper.StoreMapper;
+import com.pos.mapper.UserMapper;
+import com.pos.modal.Branch;
+import com.pos.modal.Store;
+import com.pos.modal.StoreContact;
+import com.pos.modal.User;
+import com.pos.payload.dto.StoreDTO;
+import com.pos.payload.dto.UserDTO;
+import com.pos.repository.BranchRepository;
+import com.pos.repository.StoreRepository;
+import com.pos.repository.UserRepository;
+import com.pos.service.StoreService;
 
-import com.zosh.service.UserService;
+import com.pos.service.UserService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.AuthorityUtils;

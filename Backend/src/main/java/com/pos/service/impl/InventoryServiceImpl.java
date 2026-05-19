@@ -1,17 +1,17 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
 
-import com.zosh.exception.UserException;
-import com.zosh.mapper.InventoryMapper;
-import com.zosh.modal.Branch;
-import com.zosh.modal.Inventory;
-import com.zosh.modal.Product;
-import com.zosh.payload.dto.InventoryDTO;
-import com.zosh.repository.BranchRepository;
-import com.zosh.repository.InventoryRepository;
-import com.zosh.repository.ProductRepository;
-import com.zosh.util.SecurityUtil;
-import com.zosh.service.InventoryService;
+import com.pos.exception.UserException;
+import com.pos.mapper.InventoryMapper;
+import com.pos.modal.Branch;
+import com.pos.modal.Inventory;
+import com.pos.modal.Product;
+import com.pos.payload.dto.InventoryDTO;
+import com.pos.repository.BranchRepository;
+import com.pos.repository.InventoryRepository;
+import com.pos.repository.ProductRepository;
+import com.pos.util.SecurityUtil;
+import com.pos.service.InventoryService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

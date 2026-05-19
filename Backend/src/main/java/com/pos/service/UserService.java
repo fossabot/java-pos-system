@@ -1,13 +1,13 @@
-package com.zosh.service;
+package com.pos.service;
 
 
-import com.zosh.domain.UserRole;
-import com.zosh.exception.UserException;
-import com.zosh.modal.User;
+import com.pos.domain.UserRole;
+import com.pos.exception.UserException;
+import com.pos.modal.User;
 
 import java.util.List;
 import java.util.Set;
-//import com.zosh.payload.request.UpdateUserDto;
+//import com.pos.payload.request.UpdateUserDto;
 
 
 public interface UserService {

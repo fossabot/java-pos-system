@@ -1,10 +1,10 @@
-package com.zosh.service;
+package com.pos.service;
 
 
-import com.zosh.domain.OrderStatus;
-import com.zosh.domain.PaymentType;
-import com.zosh.exception.UserException;
-import com.zosh.payload.dto.OrderDTO;
+import com.pos.domain.OrderStatus;
+import com.pos.domain.PaymentType;
+import com.pos.exception.UserException;
+import com.pos.payload.dto.OrderDTO;
 
 import java.util.List;
 

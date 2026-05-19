@@ -1,9 +1,9 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.domain.UserRole;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.UserDTO;
-import com.zosh.service.EmployeeService;
+import com.pos.domain.UserRole;
+import com.pos.modal.User;
+import com.pos.payload.dto.UserDTO;
+import com.pos.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

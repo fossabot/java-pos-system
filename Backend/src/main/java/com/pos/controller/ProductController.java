@@ -1,12 +1,12 @@
-package com.zosh.controller;
+package com.pos.controller;
 
 
-import com.zosh.exception.AccessDeniedException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.ProductDTO;
-import com.zosh.service.ProductService;
-import com.zosh.service.UserService;
+import com.pos.exception.AccessDeniedException;
+import com.pos.exception.UserException;
+import com.pos.modal.User;
+import com.pos.payload.dto.ProductDTO;
+import com.pos.service.ProductService;
+import com.pos.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

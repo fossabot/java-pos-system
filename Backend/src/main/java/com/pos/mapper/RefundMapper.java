@@ -1,8 +1,8 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
 
-import com.zosh.modal.Refund;
-import com.zosh.payload.dto.RefundDTO;
+import com.pos.modal.Refund;
+import com.pos.payload.dto.RefundDTO;
 
 public class RefundMapper {
 

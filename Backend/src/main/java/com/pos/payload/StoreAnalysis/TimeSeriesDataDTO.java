@@ -1,4 +1,4 @@
-package com.zosh.payload.StoreAnalysis;
+package com.pos.payload.StoreAnalysis;
 
 import lombok.Builder;
 import lombok.Data;

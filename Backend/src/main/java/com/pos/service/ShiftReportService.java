@@ -1,9 +1,9 @@
-package com.zosh.service;
+package com.pos.service;
 
-import com.zosh.exception.UserException;
-import com.zosh.modal.ShiftReport;
+import com.pos.exception.UserException;
+import com.pos.modal.ShiftReport;
 
-import com.zosh.modal.ShiftReport;
+import com.pos.modal.ShiftReport;
 
 import java.time.LocalDateTime;
 import java.util.List;

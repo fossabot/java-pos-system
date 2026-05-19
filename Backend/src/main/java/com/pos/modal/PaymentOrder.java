@@ -1,7 +1,7 @@
-package com.zosh.modal;
+package com.pos.modal;
 
-import com.zosh.domain.PaymentMethod;
-import com.zosh.domain.PaymentOrderStatus;
+import com.pos.domain.PaymentMethod;
+import com.pos.domain.PaymentOrderStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

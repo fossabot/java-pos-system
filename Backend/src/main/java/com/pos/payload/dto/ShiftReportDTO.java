@@ -1,6 +1,6 @@
-package com.zosh.payload.dto;
+package com.pos.payload.dto;
 
-import com.zosh.modal.PaymentSummary;
+import com.pos.modal.PaymentSummary;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

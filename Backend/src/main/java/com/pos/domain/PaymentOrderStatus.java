@@ -1,4 +1,4 @@
-package com.zosh.domain;
+package com.pos.domain;
 
 public enum PaymentOrderStatus {
     PENDING,SUCCESS,FAILED

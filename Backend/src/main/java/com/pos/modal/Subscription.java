@@ -1,8 +1,8 @@
-package com.zosh.modal;
+package com.pos.modal;
 
 
-import com.zosh.domain.PaymentStatus;
-import com.zosh.domain.SubscriptionStatus;
+import com.pos.domain.PaymentStatus;
+import com.pos.domain.SubscriptionStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

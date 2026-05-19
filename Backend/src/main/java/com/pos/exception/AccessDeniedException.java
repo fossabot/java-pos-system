@@ -1,4 +1,4 @@
-package com.zosh.exception;
+package com.pos.exception;
 
 public class AccessDeniedException extends Exception{
     public AccessDeniedException(String message){

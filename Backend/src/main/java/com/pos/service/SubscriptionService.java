@@ -1,10 +1,10 @@
-package com.zosh.service;
+package com.pos.service;
 
-import com.zosh.domain.PaymentStatus;
-import com.zosh.domain.SubscriptionStatus;
-import com.zosh.modal.Store;
-import com.zosh.modal.Subscription;
-import com.zosh.modal.SubscriptionPlan;
+import com.pos.domain.PaymentStatus;
+import com.pos.domain.SubscriptionStatus;
+import com.pos.modal.Store;
+import com.pos.modal.Subscription;
+import com.pos.modal.SubscriptionPlan;
 
 import java.util.List;
 import java.util.Optional;

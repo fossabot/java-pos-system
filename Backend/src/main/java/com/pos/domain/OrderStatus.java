@@ -1,4 +1,4 @@
-package com.zosh.domain;
+package com.pos.domain;
 
 public enum OrderStatus {
     COMPLETED, PENDING, REFUNDED, CANCELLED

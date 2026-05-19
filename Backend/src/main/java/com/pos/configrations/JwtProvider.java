@@ -1,4 +1,4 @@
-package com.zosh.configrations;
+package com.pos.configrations;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

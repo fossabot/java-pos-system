@@ -1,10 +1,10 @@
-package com.zosh.service;
+package com.pos.service;
 
 
 
-import com.zosh.payload.AdminAnalysis.DashboardSummaryDTO;
-import com.zosh.payload.AdminAnalysis.StoreRegistrationStatDTO;
-import com.zosh.payload.AdminAnalysis.StoreStatusDistributionDTO;
+import com.pos.payload.AdminAnalysis.DashboardSummaryDTO;
+import com.pos.payload.AdminAnalysis.StoreRegistrationStatDTO;
+import com.pos.payload.AdminAnalysis.StoreStatusDistributionDTO;
 
 
 import java.util.List;

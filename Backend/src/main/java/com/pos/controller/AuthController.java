@@ -1,21 +1,21 @@
-package com.zosh.controller;
+package com.pos.controller;
 
 
-import com.zosh.configrations.JwtProvider;
-import com.zosh.exception.UserException;
-import com.zosh.payload.dto.UserDTO;
-import com.zosh.payload.request.ForgotPasswordRequest;
-import com.zosh.payload.request.LoginDto;
-import com.zosh.payload.request.ResetPasswordRequest;
-import com.zosh.payload.response.ApiResponse;
-import com.zosh.payload.response.ApiResponseBody;
+import com.pos.configrations.JwtProvider;
+import com.pos.exception.UserException;
+import com.pos.payload.dto.UserDTO;
+import com.pos.payload.request.ForgotPasswordRequest;
+import com.pos.payload.request.LoginDto;
+import com.pos.payload.request.ResetPasswordRequest;
+import com.pos.payload.response.ApiResponse;
+import com.pos.payload.response.ApiResponseBody;
 
-import com.zosh.payload.response.AuthResponse;
-import com.zosh.repository.UserRepository;
+import com.pos.payload.response.AuthResponse;
+import com.pos.repository.UserRepository;
 
-import com.zosh.service.AuthService;
-import com.zosh.service.UserService;
-import com.zosh.service.impl.CustomUserImplementation;
+import com.pos.service.AuthService;
+import com.pos.service.UserService;
+import com.pos.service.impl.CustomUserImplementation;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

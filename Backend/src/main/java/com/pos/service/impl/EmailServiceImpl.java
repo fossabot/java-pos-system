@@ -1,6 +1,6 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
-import com.zosh.service.EmailService;
+import com.pos.service.EmailService;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;

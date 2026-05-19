@@ -1,4 +1,4 @@
-package com.zosh.payload.request;
+package com.pos.payload.request;
 
 import lombok.Data;
 

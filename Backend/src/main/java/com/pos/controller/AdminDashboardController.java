@@ -1,13 +1,13 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.domain.StoreStatus;
-import com.zosh.exception.ResourceNotFoundException;
-import com.zosh.payload.AdminAnalysis.DashboardSummaryDTO;
-import com.zosh.payload.AdminAnalysis.StoreRegistrationStatDTO;
-import com.zosh.payload.AdminAnalysis.StoreStatusDistributionDTO;
-import com.zosh.payload.dto.StoreDTO;
-import com.zosh.service.AdminDashboardService;
-import com.zosh.service.StoreService;
+import com.pos.domain.StoreStatus;
+import com.pos.exception.ResourceNotFoundException;
+import com.pos.payload.AdminAnalysis.DashboardSummaryDTO;
+import com.pos.payload.AdminAnalysis.StoreRegistrationStatDTO;
+import com.pos.payload.AdminAnalysis.StoreStatusDistributionDTO;
+import com.pos.payload.dto.StoreDTO;
+import com.pos.service.AdminDashboardService;
+import com.pos.service.StoreService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

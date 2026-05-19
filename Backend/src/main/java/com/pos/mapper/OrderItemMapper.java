@@ -1,7 +1,7 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
-import com.zosh.modal.OrderItem;
-import com.zosh.payload.dto.OrderItemDTO;
+import com.pos.modal.OrderItem;
+import com.pos.payload.dto.OrderItemDTO;
 
 public class OrderItemMapper {
 

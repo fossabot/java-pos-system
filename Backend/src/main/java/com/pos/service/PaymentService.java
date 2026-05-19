@@ -1,15 +1,15 @@
-package com.zosh.service;
+package com.pos.service;
 
 
 
 import com.razorpay.PaymentLink;
 import com.razorpay.RazorpayException;
 import com.stripe.exception.StripeException;
-import com.zosh.domain.PaymentMethod;
-import com.zosh.exception.UserException;
-import com.zosh.modal.PaymentOrder;
-import com.zosh.modal.User;
-import com.zosh.payload.response.PaymentLinkResponse;
+import com.pos.domain.PaymentMethod;
+import com.pos.exception.UserException;
+import com.pos.modal.PaymentOrder;
+import com.pos.modal.User;
+import com.pos.payload.response.PaymentLinkResponse;
 
 
 public interface PaymentService {

@@ -1,8 +1,8 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
 
-import com.zosh.modal.Subscription;
-import com.zosh.payload.dto.SubscriptionDTO;
+import com.pos.modal.Subscription;
+import com.pos.payload.dto.SubscriptionDTO;
 
 public class SubscriptionMapper {
 

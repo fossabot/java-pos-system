@@ -1,7 +1,7 @@
-package com.zosh.exception;
+package com.pos.exception;
 
 
-import com.zosh.payload.response.ExceptionResponse;
+import com.pos.payload.response.ExceptionResponse;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

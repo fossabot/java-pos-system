@@ -1,4 +1,4 @@
-package com.zosh.modal;
+package com.pos.modal;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

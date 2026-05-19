@@ -1,5 +1,5 @@
-package com.zosh.payload.dto;
-import com.zosh.modal.Branch;
+package com.pos.payload.dto;
+import com.pos.modal.Branch;
 import jakarta.persistence.ElementCollection;
 import lombok.*;
 import java.time.LocalDateTime;

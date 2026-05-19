@@ -1,9 +1,9 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
-import com.zosh.modal.Category;
-import com.zosh.modal.Product;
-import com.zosh.modal.Store;
-import com.zosh.payload.dto.ProductDTO;
+import com.pos.modal.Category;
+import com.pos.modal.Product;
+import com.pos.modal.Store;
+import com.pos.payload.dto.ProductDTO;
 
 public class ProductMapper {
 

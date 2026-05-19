@@ -1,7 +1,7 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
-import com.zosh.modal.*;
-import com.zosh.payload.dto.*;
+import com.pos.modal.*;
+import com.pos.payload.dto.*;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.zosh.service;
+package com.pos.service;
 
-import com.zosh.domain.UserRole;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.UserDTO;
+import com.pos.domain.UserRole;
+import com.pos.modal.User;
+import com.pos.payload.dto.UserDTO;
 
 import java.util.List;
 

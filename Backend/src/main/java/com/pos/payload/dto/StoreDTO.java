@@ -1,7 +1,7 @@
-package com.zosh.payload.dto;
+package com.pos.payload.dto;
 
-import com.zosh.domain.StoreStatus;
-import com.zosh.modal.StoreContact;
+import com.pos.domain.StoreStatus;
+import com.pos.modal.StoreContact;
 import lombok.*;
 import java.time.LocalDateTime;
 

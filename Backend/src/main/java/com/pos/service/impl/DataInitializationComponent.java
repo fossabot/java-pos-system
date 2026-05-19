@@ -1,8 +1,8 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
-import com.zosh.domain.UserRole;
-import com.zosh.modal.User;
-import com.zosh.repository.UserRepository;
+import com.pos.domain.UserRole;
+import com.pos.modal.User;
+import com.pos.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;

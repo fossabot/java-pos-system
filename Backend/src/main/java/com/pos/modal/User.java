@@ -1,7 +1,7 @@
-package com.zosh.modal;
+package com.pos.modal;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.zosh.domain.UserRole;
+import com.pos.domain.UserRole;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

@@ -1,7 +1,7 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.payload.StoreAnalysis.*;
-import com.zosh.service.StoreAnalyticsService;
+import com.pos.payload.StoreAnalysis.*;
+import com.pos.service.StoreAnalyticsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

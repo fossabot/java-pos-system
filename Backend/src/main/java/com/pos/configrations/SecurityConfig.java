@@ -1,4 +1,4 @@
-package com.zosh.configrations;
+package com.pos.configrations;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;

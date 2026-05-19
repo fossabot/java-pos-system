@@ -1,7 +1,7 @@
-package com.zosh.service;
+package com.pos.service;
 
-import com.zosh.modal.PaymentSummary;
-import com.zosh.payload.dto.*;
+import com.pos.modal.PaymentSummary;
+import com.pos.payload.dto.*;
 
 import java.time.LocalDate;
 import java.util.List;

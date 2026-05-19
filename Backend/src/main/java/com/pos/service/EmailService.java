@@ -1,4 +1,4 @@
-package com.zosh.service;
+package com.pos.service;
 
 public interface EmailService {
 

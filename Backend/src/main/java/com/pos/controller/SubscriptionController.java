@@ -1,9 +1,9 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.domain.PaymentStatus;
-import com.zosh.domain.SubscriptionStatus;
-import com.zosh.modal.Subscription;
-import com.zosh.service.SubscriptionService;
+import com.pos.domain.PaymentStatus;
+import com.pos.domain.SubscriptionStatus;
+import com.pos.modal.Subscription;
+import com.pos.service.SubscriptionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

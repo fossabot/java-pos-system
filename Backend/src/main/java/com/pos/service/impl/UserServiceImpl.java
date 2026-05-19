@@ -1,17 +1,17 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
 
-import com.zosh.configrations.JwtProvider;
-import com.zosh.domain.UserRole;
-import com.zosh.exception.UserException;
+import com.pos.configrations.JwtProvider;
+import com.pos.domain.UserRole;
+import com.pos.exception.UserException;
 
-import com.zosh.modal.*;
+import com.pos.modal.*;
 
 
-import com.zosh.repository.PasswordResetTokenRepository;
-import com.zosh.repository.UserRepository;
+import com.pos.repository.PasswordResetTokenRepository;
+import com.pos.repository.UserRepository;
 
-import com.zosh.service.UserService;
+import com.pos.service.UserService;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -24,9 +24,9 @@ import java.util.List;
 import java.util.Set;
 
 
-import com.zosh.modal.User;
-import com.zosh.repository.BranchRepository;
-import com.zosh.repository.StoreRepository;
+import com.pos.modal.User;
+import com.pos.repository.BranchRepository;
+import com.pos.repository.StoreRepository;
 
 
 import java.util.Optional;

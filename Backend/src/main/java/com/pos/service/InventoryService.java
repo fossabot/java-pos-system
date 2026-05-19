@@ -1,8 +1,8 @@
-package com.zosh.service;
+package com.pos.service;
 
 
-import com.zosh.exception.UserException;
-import com.zosh.payload.dto.InventoryDTO;
+import com.pos.exception.UserException;
+import com.pos.payload.dto.InventoryDTO;
 
 import java.nio.file.AccessDeniedException;
 import java.util.List;

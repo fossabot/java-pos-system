@@ -1,17 +1,17 @@
-package com.zosh.controller;
+package com.pos.controller;
 
-import com.zosh.configrations.JwtProvider;
+import com.pos.configrations.JwtProvider;
 
-import com.zosh.domain.UserRole;
-import com.zosh.exception.UserException;
-import com.zosh.mapper.UserMapper;
-import com.zosh.modal.User;
+import com.pos.domain.UserRole;
+import com.pos.exception.UserException;
+import com.pos.mapper.UserMapper;
+import com.pos.modal.User;
 
-import com.zosh.payload.dto.UserDTO;
-import com.zosh.payload.response.ApiResponseBody;
-import com.zosh.repository.UserRepository;
-import com.zosh.service.UserService;
-import com.zosh.service.impl.CustomUserImplementation;
+import com.pos.payload.dto.UserDTO;
+import com.pos.payload.response.ApiResponseBody;
+import com.pos.repository.UserRepository;
+import com.pos.service.UserService;
+import com.pos.service.impl.CustomUserImplementation;
 
 import jakarta.mail.MessagingException;
 import lombok.RequiredArgsConstructor;
@@ -24,18 +24,18 @@ import java.util.List;
 import java.util.Set;
 
 
-import com.zosh.configrations.JwtProvider;
+import com.pos.configrations.JwtProvider;
 
-import com.zosh.domain.UserRole;
-import com.zosh.exception.UserException;
-import com.zosh.mapper.UserMapper;
-import com.zosh.modal.User;
+import com.pos.domain.UserRole;
+import com.pos.exception.UserException;
+import com.pos.mapper.UserMapper;
+import com.pos.modal.User;
 
-import com.zosh.payload.dto.UserDTO;
-import com.zosh.payload.response.ApiResponseBody;
-import com.zosh.repository.UserRepository;
-import com.zosh.service.UserService;
-import com.zosh.service.impl.CustomUserImplementation;
+import com.pos.payload.dto.UserDTO;
+import com.pos.payload.response.ApiResponseBody;
+import com.pos.repository.UserRepository;
+import com.pos.service.UserService;
+import com.pos.service.impl.CustomUserImplementation;
 
 import jakarta.mail.MessagingException;
 import lombok.RequiredArgsConstructor;

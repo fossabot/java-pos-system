@@ -1,4 +1,4 @@
-package com.zosh.modal;
+package com.pos.modal;
 
 
 import jakarta.persistence.*;

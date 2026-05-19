@@ -1,16 +1,16 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
 
-import com.zosh.domain.OrderStatus;
-import com.zosh.domain.PaymentType;
-import com.zosh.exception.UserException;
-import com.zosh.mapper.OrderMapper;
-import com.zosh.modal.*;
-import com.zosh.payload.dto.OrderDTO;
-import com.zosh.repository.*;
+import com.pos.domain.OrderStatus;
+import com.pos.domain.PaymentType;
+import com.pos.exception.UserException;
+import com.pos.mapper.OrderMapper;
+import com.pos.modal.*;
+import com.pos.payload.dto.OrderDTO;
+import com.pos.repository.*;
 
-import com.zosh.service.OrderService;
-import com.zosh.service.UserService;
+import com.pos.service.OrderService;
+import com.pos.service.UserService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

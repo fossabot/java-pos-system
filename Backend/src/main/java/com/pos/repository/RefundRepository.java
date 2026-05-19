@@ -1,9 +1,9 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.modal.Order;
-import com.zosh.modal.Refund;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.RefundDTO;
+import com.pos.modal.Order;
+import com.pos.modal.Refund;
+import com.pos.modal.User;
+import com.pos.payload.dto.RefundDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -30,7 +30,7 @@ public interface RefundRepository extends JpaRepository<Refund, Long> {
     int countByStoreAdminId(@Param("storeAdminId") Long storeAdminId);
 
     @Query("""
-          SELECT new com.zosh.payload.dto.RefundDTO(
+          SELECT new com.pos.payload.dto.RefundDTO(
                   r.id,
                   r.order.id,
                   r.reason,

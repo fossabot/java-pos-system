@@ -1,9 +1,9 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
 
-import com.zosh.modal.Branch;
-import com.zosh.modal.Store;
-import com.zosh.payload.dto.BranchDTO;
+import com.pos.modal.Branch;
+import com.pos.modal.Store;
+import com.pos.payload.dto.BranchDTO;
 
 public class BranchMapper {
 

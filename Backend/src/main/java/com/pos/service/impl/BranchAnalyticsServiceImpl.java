@@ -1,13 +1,13 @@
-package com.zosh.service.impl;
+package com.pos.service.impl;
 
-import com.zosh.domain.PaymentType;
-import com.zosh.modal.PaymentSummary;
-import com.zosh.payload.dto.*;
-import com.zosh.repository.BranchRepository;
-import com.zosh.repository.InventoryRepository;
-import com.zosh.repository.OrderItemRepository;
-import com.zosh.repository.OrderRepository;
-import com.zosh.service.BranchAnalyticsService;
+import com.pos.domain.PaymentType;
+import com.pos.modal.PaymentSummary;
+import com.pos.payload.dto.*;
+import com.pos.repository.BranchRepository;
+import com.pos.repository.InventoryRepository;
+import com.pos.repository.OrderItemRepository;
+import com.pos.repository.OrderRepository;
+import com.pos.service.BranchAnalyticsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

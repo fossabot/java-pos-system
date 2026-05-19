@@ -1,9 +1,9 @@
-package com.zosh.repository;
+package com.pos.repository;
 
 
-import com.zosh.modal.Product;
-import com.zosh.payload.StoreAnalysis.CategorySalesDTO;
-import com.zosh.payload.dto.ProductDTO;
+import com.pos.modal.Product;
+import com.pos.payload.StoreAnalysis.CategorySalesDTO;
+import com.pos.payload.dto.ProductDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -33,7 +33,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     int countByStoreAdminId(@Param("storeAdminId") Long storeAdminId);
 
     @Query("""
-        SELECT new com.zosh.payload.StoreAnalysis.CategorySalesDTO(
+        SELECT new com.pos.payload.StoreAnalysis.CategorySalesDTO(
             p.category.name,
             SUM(oi.quantity * p.sellingPrice)
         )
@@ -45,7 +45,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     List<CategorySalesDTO> getSalesGroupedByCategory(@Param("storeAdminId") Long storeAdminId);
 
     @Query("""
-        SELECT new com.zosh.payload.dto.ProductDTO(
+        SELECT new com.pos.payload.dto.ProductDTO(
                 p.id,
                 p.name,
                 p.sku,

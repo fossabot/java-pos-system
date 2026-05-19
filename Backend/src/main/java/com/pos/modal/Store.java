@@ -1,7 +1,7 @@
-package com.zosh.modal;
+package com.pos.modal;
 
 
-import com.zosh.domain.StoreStatus;
+import com.pos.domain.StoreStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

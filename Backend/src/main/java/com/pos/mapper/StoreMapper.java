@@ -1,8 +1,8 @@
-package com.zosh.mapper;
+package com.pos.mapper;
 
-import com.zosh.modal.Store;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.StoreDTO;
+import com.pos.modal.Store;
+import com.pos.modal.User;
+import com.pos.payload.dto.StoreDTO;
 
 public class StoreMapper {
 

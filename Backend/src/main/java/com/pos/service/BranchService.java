@@ -1,11 +1,11 @@
-package com.zosh.service;
+package com.pos.service;
 
 
-import com.zosh.exception.ResourceNotFoundException;
-import com.zosh.exception.UserException;
-import com.zosh.modal.User;
-import com.zosh.payload.dto.BranchDTO;
-import com.zosh.payload.dto.UserDTO;
+import com.pos.exception.ResourceNotFoundException;
+import com.pos.exception.UserException;
+import com.pos.modal.User;
+import com.pos.payload.dto.BranchDTO;
+import com.pos.payload.dto.UserDTO;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.modal.Order;
-import com.zosh.modal.User;
-import com.zosh.payload.StoreAnalysis.BranchSalesDTO;
-import com.zosh.payload.StoreAnalysis.PaymentInsightDTO;
-import com.zosh.payload.StoreAnalysis.TimeSeriesPointDTO;
+import com.pos.modal.Order;
+import com.pos.modal.User;
+import com.pos.payload.StoreAnalysis.BranchSalesDTO;
+import com.pos.payload.StoreAnalysis.PaymentInsightDTO;
+import com.pos.payload.StoreAnalysis.TimeSeriesPointDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -99,7 +99,7 @@ public interface OrderRepository extends JpaRepository<Order, Long> {
 
 
     @Query("""
-    SELECT new com.zosh.payload.StoreAnalysis.TimeSeriesPointDTO(
+    SELECT new com.pos.payload.StoreAnalysis.TimeSeriesPointDTO(
         o.createdAt,
         SUM(o.totalAmount)
     )
@@ -115,7 +115,7 @@ public interface OrderRepository extends JpaRepository<Order, Long> {
 
 
     @Query("""
-        SELECT new com.zosh.payload.StoreAnalysis.PaymentInsightDTO(
+        SELECT new com.pos.payload.StoreAnalysis.PaymentInsightDTO(
             o.paymentType,
             SUM(o.totalAmount)
         )
@@ -126,7 +126,7 @@ public interface OrderRepository extends JpaRepository<Order, Long> {
         List<PaymentInsightDTO> getSalesByPaymentMethod(@Param("storeAdminId") Long storeAdminId);
 
         @Query("""
-        SELECT new com.zosh.payload.StoreAnalysis.BranchSalesDTO(
+        SELECT new com.pos.payload.StoreAnalysis.BranchSalesDTO(
             o.branch.name,
             SUM(o.totalAmount)
         )

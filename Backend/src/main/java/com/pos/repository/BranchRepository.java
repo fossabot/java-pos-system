@@ -1,7 +1,7 @@
-package com.zosh.repository;
+package com.pos.repository;
 
-import com.zosh.modal.Branch;
-import com.zosh.payload.dto.BranchDTO;
+import com.pos.modal.Branch;
+import com.pos.payload.dto.BranchDTO;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -38,7 +38,7 @@ public interface BranchRepository extends JpaRepository<Branch, Long> {
     List<String> findTopBranchBySales(@Param("storeAdminId") Long storeAdminId);
 
     @Query("""
-        SELECT new com.zosh.payload.dto.BranchDTO(
+        SELECT new com.pos.payload.dto.BranchDTO(
         b.id, b.name, b.address
         )
         FROM Branch b
