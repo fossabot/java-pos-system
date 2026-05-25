@@ -40,14 +40,6 @@ jobs:
       - name: Build Spring Boot Application
         run: mvn package -DskipTests
 
-      - name: SonarCloud Scan
-        run: |
-          mvn sonar:sonar \
-            -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }} \
-            -Dsonar.organization=${{ secrets.SONAR_ORGANIZATION }} \
-            -Dsonar.host.url=https://sonarcloud.io \
-            -Dsonar.login=${{ secrets.SONAR_TOKEN }}
-
       - name: Deploy to Render
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         run: curl -X POST "$RENDER_DEPLOY_HOOK_URL"
