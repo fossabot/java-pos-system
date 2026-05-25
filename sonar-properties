@@ -1,4 +1,4 @@
 sonar.projectKey=priyanka-pos
 sonar.organization=priyanka-ravi-st
-sonar.sources=.
+sonar.host.url=https://sonarcloud.io
 sonar.sourceEncoding=UTF-8
