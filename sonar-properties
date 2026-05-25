@@ -1,7 +1,4 @@
-- name: SonarCloud Scan
-  run: |
-    mvn sonar:sonar \
-      -Dsonar.projectKey=PRIYANKA-RAVI-ST-KVPbG_java-apex-ci \
-      -Dsonar.organization=priyanka-ravi-st \
-      -Dsonar.host.url=https://sonarcloud.io \
-      -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+sonar.projectKey=priyanka-pos
+sonar.organization=priyanka-ravi-st
+sonar.sources=.
+sonar.sourceEncoding=UTF-8
