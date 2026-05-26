@@ -12,11 +12,11 @@ public interface BranchRepository extends JpaRepository<Branch, Long> {
 
     List<Branch> findByStoreId(Long storeId);
 
-
-
-
-
-    @Query("SELECT COUNT(b) FROM Branch b WHERE b.store.storeAdmin.id = :storeAdminId")
+    @Query("""
+        SELECT COUNT(b)
+        FROM Branch b
+        WHERE b.store.storeAdmin.id = :storeAdminId
+    """)
     int countByStoreAdminId(@Param("storeAdminId") Long storeAdminId);
 
     @Query("""
@@ -32,23 +32,27 @@ public interface BranchRepository extends JpaRepository<Branch, Long> {
         FROM Branch b
         JOIN Order o ON o.branch.id = b.id
         WHERE b.store.storeAdmin.id = :storeAdminId
-        GROUP BY b.id
+        GROUP BY b.id, b.name
         ORDER BY SUM(o.totalAmount) DESC
     """)
     List<String> findTopBranchBySales(@Param("storeAdminId") Long storeAdminId);
 
     @Query("""
         SELECT new com.pos.payload.dto.BranchDTO(
-        b.id, b.name, b.address
+            b.id,
+            b.name,
+            b.address
         )
         FROM Branch b
         WHERE b.store.storeAdmin.id = :storeAdminId
         AND b.id NOT IN (
             SELECT DISTINCT o.branch.id
             FROM Order o
-            WHERE DATE(o.createdAt) = CURRENT_DATE
+            WHERE o.createdAt >= CURRENT_DATE
         )
     """)
-    List<BranchDTO> findBranchesWithNoSalesToday(@Param("storeAdminId") Long storeAdminId);
-
+    List<BranchDTO> findBranchesWithNoSalesToday(
+            @Param("storeAdminId") Long storeAdminId
+    );
 }
+
