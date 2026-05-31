@@ -3,6 +3,8 @@ name: Java Spring Boot CI with FOSSA
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build-test-fossa:
@@ -19,6 +21,7 @@ jobs:
           java-version: '17'
 
       - name: Build and test with Maven
+        working-directory: backend
         run: mvn clean verify
 
       - name: Run FOSSA scan
