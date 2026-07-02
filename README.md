@@ -16,6 +16,7 @@
 <br />
 
 ![POS Pro System Cover Image](Frontend/public/pospro.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPRIYANKA-RAVI-ST%2Fjava-pos-system.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPRIYANKA-RAVI-ST%2Fjava-pos-system?ref=badge_shield)
 
 <hr />
 
@@ -233,3 +234,6 @@ Submit issues or forks through the GitHub repository.
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the LICENSE file for details.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPRIYANKA-RAVI-ST%2Fjava-pos-system.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FPRIYANKA-RAVI-ST%2Fjava-pos-system?ref=badge_large)
